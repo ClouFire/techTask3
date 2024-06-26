@@ -1,16 +1,5 @@
 const input = document.querySelector('.rectangle');
 
-//input.onclick = () => {
-//  if (input.innerHTML === 'На меня кликнули...') {
-//    input.innerHTML = 'Я прямоугольник';
-//    input.classList.toggle('red')
-//  } else {
-//    input.innerHTML = 'На меня кликнули...';
-//    input.classList.toggle('red')
-//  }
-//
-//};
-
 function change(event) {
     if (event.target.classList.contains('red')) {
         event.target.innerHTML = 'Я прямоугольник';
