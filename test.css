@@ -1,4 +1,4 @@
-.abo {
+.rectangle {
     background-color: aqua;
     width: 190px;
     padding: 10px;
@@ -8,4 +8,11 @@
 .red {
     background-color: red;
     color: white;
+}
+
+.noSelect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

@@ -12,7 +12,7 @@
     <div class="buttons">
         <input type="button" value="Кнопка" id="shouldBeChanged">
     </div>
-    <div class="abo">Я прямоугольник</div>
+    <div class="noSelect rectangle">Я прямоугольник</div>
     <script src="test.js"></script>
 
 </body>
